@@ -9,14 +9,10 @@ armstrong = 0
 if number.isalpha():
     print("Do not use any entries other than numeric values")
     
-elif not(number.isdecimal()) and \
-    not(("." in list_num) or ("," in list_num) or ("-" in list_num)):  # for entries numbers+characters like 'one123'
-    print("Do not use any entries other than numeric values")
-    
 elif number.startswith("-"):
     print("Please enter a positive number")
     
-elif number.isdigit() and ("." in list_num) or ("," in list_num):
+elif ("." in list_num) or ("," in list_num):
     print("Please enter an integer number")
     
 else:
