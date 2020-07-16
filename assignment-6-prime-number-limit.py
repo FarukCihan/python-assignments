@@ -1,4 +1,3 @@
-
 n = int(input("Please enter a integer number to list Prime Numbers : "))
 
 prime = []
